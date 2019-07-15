@@ -1,0 +1,61 @@
+h1 {
+    background-color: darkcyan;
+    color: aquamarine;
+    font-size: 50px;
+    padding: 0px 5px;
+    margin: 0px;
+    width: 450px;
+}
+
+.para {
+    background-color: antiquewhite;
+    color: chocolate;
+    width: 600px;
+    margin: 5px 0px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.num {
+    background-color: chocolate;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    margin: -15px 0px;
+}
+
+.res {
+    background-color: bisque;
+    color: chocolate;
+    width: 250px;
+    font-size: 30px;
+} 
+
+.score {
+    background-color: seagreen;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 500px;
+    height:40px;
+    margin: 0px 0px;
+    position: relative;
+
+}
+
+.stupid {
+    background-color: seagreen;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+img {
+    border-radius: 10px;
+    border: solid darkcyan 3px;
+    float: left;
+}
+
+.background {
+    background-repeat: no-repeat;
+}
