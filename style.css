@@ -37,8 +37,6 @@ h1 {
     font-size: 20px;
     width: 500px;
     height:40px;
-    margin: 0px 0px;
-    position: relative;
 
 }
 
@@ -48,12 +46,15 @@ h1 {
     font-size: 20px;
     width: 100px;
     height: 30px;
+    
 }
 
 img {
     border-radius: 10px;
     border: solid darkcyan 3px;
     float: left;
+    float: inherit;
+
 }
 
 .background {
