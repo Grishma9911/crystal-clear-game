@@ -16,18 +16,18 @@ h1 {
     font-size: 20px;
 }
 
-.num {
+#num {
     background-color: chocolate;
     width: 250px;
-    height: 100px;
+    height: 80px;
     font-size: 20px;
-    margin: -15px 0px;
+    margin: 0px 0px;
 }
 
 .res {
     background-color: bisque;
     color: chocolate;
-    width: 250px;
+    width: 200px;
     font-size: 30px;
 } 
 
