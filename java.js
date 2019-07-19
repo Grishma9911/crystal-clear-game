@@ -22,12 +22,14 @@ function win(){
     console.log("running win!");
     wn++;
     $("#user-score").html("WIN!!!!: " + wn);
+    reset();
 }
 
 function lose(){
     console.log("running lose!");
     ls++;
     $("#computer-score").html("LOSER!!!!: " + ls);
+    reset();
 }
 
 
@@ -73,6 +75,30 @@ $("#four").on("click", function() {
         lose();
         }
 });
+
+function reset() {
+    computerChoice = Math.floor(Math.random()*120-19)+19;
+    console.log(computerChoice)
+
+    $("#num").html(computerChoice);
+
+var randomNumber1 = Math.floor(Math.random() * 11) + 1;
+var randomNumber2 = Math.floor(Math.random() * 11) + 1;
+var randomNumber3 = Math.floor(Math.random() * 11) + 1;
+var randomNumber4 = Math.floor(Math.random() * 11) + 1;
+
+var total = 0;
+$("#st").html(total);
+
+}
+
+// function win(){
+//     $("#")
+// }
+
+
+
+
 
 
 
