@@ -87,16 +87,10 @@ var randomNumber2 = Math.floor(Math.random() * 11) + 1;
 var randomNumber3 = Math.floor(Math.random() * 11) + 1;
 var randomNumber4 = Math.floor(Math.random() * 11) + 1;
 
-var total = 0;
+total = 0;
 $("#st").html(total);
 
 }
-
-// function win(){
-//     $("#")
-// }
-
-
 
 
 
